@@ -8,7 +8,17 @@
   "license": "GPL-3.0",
   "private": null,
   "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint-plugin-flowtype": "^2.39.1",
     "flow-bin": "^0.59.0",
-    "flow-remove-types": "^1.2.3"
+    "flow-remove-types": "^1.2.3",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "lint": "standard ./src/*.js"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [ "flowtype" ]
   }
 }
