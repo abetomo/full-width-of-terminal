@@ -1,0 +1,10 @@
+{
+  "name": "full-width-of-terminal",
+  "version": "0.0.1",
+  "description": "The string is displayed on the full width of the terminal.",
+  "main": "index.js",
+  "repository": "git@github.com:abetomo/full-width-of-terminal.git",
+  "author": "abetomo <abe@enzou.tokyo>",
+  "license": "GPL-3.0",
+  "private": null
+}
