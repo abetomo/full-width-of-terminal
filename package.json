@@ -12,15 +12,20 @@
     "eslint-plugin-flowtype": "^2.39.1",
     "flow-bin": "^0.59.0",
     "flow-remove-types": "^1.2.3",
+    "jest": "^21.2.1",
     "standard": "^10.0.3"
   },
   "scripts": {
     "build": "flow-remove-types src/ -d build/",
     "lint": "standard ./src/*.js",
-    "typecheck": "flow check"
+    "typecheck": "flow check",
+    "test": "yarn run typecheck && yarn run lint && yarn run build && jest"
   },
   "standard": {
     "parser": "babel-eslint",
     "plugins": [ "flowtype" ]
+  },
+  "jest": {
+      "roots": [ "build" ]
   }
 }
