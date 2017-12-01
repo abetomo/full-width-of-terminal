@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "flow-remove-types src/ -d build/",
-    "lint": "standard ./src/*.js",
+    "lint": "standard ./src/*.js ./src/*/*.js",
     "typecheck": "flow check",
     "test": "yarn run typecheck && yarn run lint && yarn run build && jest"
   },
