@@ -1,6 +1,6 @@
 {
   "name": "full-width-of-terminal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The string is displayed on the full width of the terminal.",
   "main": "build/index.js",
   "repository": "git@github.com:abetomo/full-width-of-terminal.git",
@@ -24,9 +24,13 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "plugins": [ "flowtype" ]
+    "plugins": [
+      "flowtype"
+    ]
   },
   "jest": {
-      "roots": [ "build" ]
+    "roots": [
+      "build"
+    ]
   }
 }
