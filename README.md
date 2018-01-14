@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/full-width-of-terminal.svg)](https://badge.fury.io/js/full-width-of-terminal)
 [![Build Status](https://travis-ci.org/abetomo/full-width-of-terminal.svg?branch=master)](https://travis-ci.org/abetomo/full-width-of-terminal)
+[![Build status](https://ci.appveyor.com/api/projects/status/8x51mi482ioju39x/branch/master?svg=true)](https://ci.appveyor.com/project/abetomo/full-width-of-terminal/branch/master)
 
 The string is displayed on the full width of the terminal.
 
