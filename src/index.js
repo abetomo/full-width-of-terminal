@@ -5,5 +5,6 @@
 const columns = require('./columns').getColumns()
 
 exports.getStringFullWidthOfTerminal = (str: string): string => {
-  return new Array(columns + 1).join(str).substr(0, columns)
+  const size = Math.ceil(columns / str.length)
+  return new Array(size + 1).join(str).substr(0, columns)
 }
