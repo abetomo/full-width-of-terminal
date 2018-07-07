@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "repository": "git@github.com:abetomo/full-width-of-terminal.git",
   "keywords": [
+    "console",
     "terminal",
     "width",
     "full",
@@ -15,11 +16,11 @@
   "license": "GPL-3.0",
   "private": null,
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint-plugin-flowtype": "^2.46.3",
-    "flow-bin": "^0.72.0",
+    "babel-eslint": "^8.2.5",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "flow-bin": "^0.75.0",
     "flow-remove-types": "^1.2.3",
-    "jest": "^22.4.3",
+    "jest": "^23.3.0",
     "standard": "^11.0.1"
   },
   "scripts": {
