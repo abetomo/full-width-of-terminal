@@ -5,6 +5,10 @@ const getStringFullWidthOfTerminal = require('../').getStringFullWidthOfTerminal
 
 /* global describe, test, expect */
 describe('getStringFullWidthOfTerminal()', () => {
+  test('Argument omission. (default: "-")', () => {
+    expect(getStringFullWidthOfTerminal()).toBe('-----')
+  })
+
   test('When the argument is one character', () => {
     expect(getStringFullWidthOfTerminal('=')).toBe('=====')
   })
