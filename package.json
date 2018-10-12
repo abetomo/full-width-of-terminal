@@ -37,6 +37,7 @@
     ]
   },
   "jest": {
+    "collectCoverage": true,
     "roots": [
       "build"
     ]
