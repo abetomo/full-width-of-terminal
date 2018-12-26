@@ -42,6 +42,13 @@
       "build"
     ]
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "build/columns.js",
+    "build/index.js",
+    "package.json"
+  ],
   "engines": {
     "node": ">= 6.0.0"
   }
