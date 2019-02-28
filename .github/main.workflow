@@ -15,14 +15,14 @@ action "Test" {
 }
 
 # Filter for release tag
-action "relase tag" {
+action "RelaseTag" {
   needs = "Test"
   uses = "actions/bin/filter@master"
   args = "tag v*"
 }
 
 action "Publish" {
-  needs = "Master"
+  needs = "RelaseTag"
   uses = "actions/npm@master"
   args = "publish --access public"
   secrets = ["NPM_AUTH_TOKEN"]
