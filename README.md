@@ -18,4 +18,7 @@ const getStringFullWidthOfTerminal =
 
 // '=' is displayed across the width of the terminal
 console.log(getStringFullWidthOfTerminal('='))
+
+// By default, '-' is displayed.
+console.log(getStringFullWidthOfTerminal())
 ```
