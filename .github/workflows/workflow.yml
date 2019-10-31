@@ -4,11 +4,10 @@ on: [push, pull_request]
 
 jobs:
   test:
-    name: Test on node ${{ matrix.node-version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [8.x, 10.x, 12.x, 13.x]
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
     - uses: actions/checkout@master
@@ -16,10 +15,8 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: ${{ matrix.node-version }}
-    - name: yarn install and test
-      run: |
-        yarn install
-        yarn test
+    - run: yarn install
+    - run: yarn test
 
   publish:
     name: npm publish
