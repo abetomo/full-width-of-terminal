@@ -16,12 +16,12 @@
   "license": "GPL-3.0",
   "private": null,
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-plugin-flowtype": "^4.3.0",
-    "flow-bin": "^0.107.0",
-    "flow-remove-types": "^2.107.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "flow-bin": "^0.121.0",
+    "flow-remove-types": "^2.121.0",
     "jest": "^25.1.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.3"
   },
   "scripts": {
     "build": "flow-remove-types src/ -d build/",
