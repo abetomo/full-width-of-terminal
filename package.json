@@ -1,6 +1,6 @@
 {
   "name": "full-width-of-terminal",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The string is displayed on the full width of the terminal.",
   "main": "build/index.js",
   "repository": "git@github.com:abetomo/full-width-of-terminal.git",
