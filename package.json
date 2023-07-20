@@ -20,7 +20,7 @@
     "eslint-plugin-flowtype": "^8.0.3",
     "flow-bin": "^0.168.0",
     "flow-remove-types": "^2.168.0",
-    "jest": "^27.4.6",
+    "jest": "^29.6.1",
     "standard": "^16.0.4"
   },
   "scripts": {
