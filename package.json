@@ -27,7 +27,7 @@
     "build": "flow-remove-types src/ -d build/",
     "lint": "standard ./src/*.js ./src/*/*.js",
     "prepublish": "yarn run build",
-    "typecheck": "node -e \"process.exit(process.platform != 'win32')\" || flow check",
+    "typecheck": "node -e \"process.exit(process.platform !== 'win32' ? 0 : 1)\" || flow check",
     "test": "yarn run typecheck && yarn run lint && yarn run build && jest"
   },
   "standard": {
