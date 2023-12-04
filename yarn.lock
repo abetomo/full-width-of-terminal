@@ -1622,17 +1622,12 @@ flow-bin@^0.220.0:
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.220.0.tgz#4d4736597ad79be5991b1c24014a6d355190ee76"
   integrity sha512-FcnXLu6AlkoL54hp2IUKgHkYRhSpt7PtTolHLAC/7nq9Lqkfv3kt8JYaRBb5yufLaC4HNJ/G7KRoa1phJy8yGA==
 
-flow-parser@^0.220.0:
-  version "0.220.0"
-  resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.220.0.tgz#de184e9da22b47ead09cf40ab4e781a17149017d"
-  integrity sha512-Fks+nOCqhorp4NpAtAxf09UaR/9xDf3AnU1UkWczmpneoHh06Y3AoEA4tIe2HbYrOHT9JArUgDZpCFhP4clo1A==
-
 flow-remove-types@^2.212.0:
-  version "2.220.0"
-  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.220.0.tgz#ed4444d30b6ddba359f38cea45751ac4637aab00"
-  integrity sha512-al94MLgIELXFOf3TOBbC4EXgii50TZ7NWZBSe65zx6syPxrWw3bSPkCuZ03uBGVFhyyxgaj0ZIX8FC19aqOs9w==
+  version "2.223.0"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.223.0.tgz#873148f3c8a95407c0849c720df1829c5077becf"
+  integrity sha512-HYSmrb/2vTxIyh87pW6I7pfpoXn3tjcHVQrH8Ln1IWSCjwg0QTse+CZI9djBYRnoTM/1l2UuMYqVGRr7bbb0Sg==
   dependencies:
-    flow-parser "^0.220.0"
+    hermes-parser "0.17.1"
     pirates "^3.0.2"
     vlq "^0.2.1"
 
@@ -1816,6 +1811,18 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+hermes-estree@0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.17.1.tgz#902806a900c185720424ffcf958027821d23c051"
+  integrity sha512-EdUJms+eRE40OQxysFlPr1mPpvUbbMi7uDAKlScBw8o3tQY22BZ5yx56OYyp1bVaBm+7Cjc3NQz24sJEFXkPxg==
+
+hermes-parser@0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.17.1.tgz#8b5cbaff235fed28487812ad718f9c7182d0db0f"
+  integrity sha512-yErtFLMEL6490fFJPurNn23OI2ciGAtaUfKUg9VPdcde9CmItCjOVQkJt1Xzawv5kuRzeIx0RE2E2Q9TbIgdzA==
+  dependencies:
+    hermes-estree "0.17.1"
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
