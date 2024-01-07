@@ -1623,11 +1623,11 @@ flow-bin@^0.223.0:
   integrity sha512-E+GmTcBTPIRfnX/Dk19zJewX9grxoVQU+RG3Ypd/Os0OkUSOF7K3Sxo2I+8Oz1EpnPMGhnbM4WRAUuY0JaHRsw==
 
 flow-remove-types@^2.212.0:
-  version "2.223.0"
-  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.223.0.tgz#873148f3c8a95407c0849c720df1829c5077becf"
-  integrity sha512-HYSmrb/2vTxIyh87pW6I7pfpoXn3tjcHVQrH8Ln1IWSCjwg0QTse+CZI9djBYRnoTM/1l2UuMYqVGRr7bbb0Sg==
+  version "2.225.1"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.225.1.tgz#2de188480ffe54397891ff922d2695eb5a27e9e9"
+  integrity sha512-UZj78nVIq3JGJcet2MzAUMPhu3ag9IawRt+kuA9JSuLH2aQYN0wmYhcLVbyyKpj6qgjVXBR+EXIO9XRprY0g2g==
   dependencies:
-    hermes-parser "0.17.1"
+    hermes-parser "0.18.0"
     pirates "^3.0.2"
     vlq "^0.2.1"
 
@@ -1812,17 +1812,17 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hermes-estree@0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.17.1.tgz#902806a900c185720424ffcf958027821d23c051"
-  integrity sha512-EdUJms+eRE40OQxysFlPr1mPpvUbbMi7uDAKlScBw8o3tQY22BZ5yx56OYyp1bVaBm+7Cjc3NQz24sJEFXkPxg==
+hermes-estree@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/hermes-estree/-/hermes-estree-0.18.0.tgz#6c202d8c78ddefadf3eb595a584dfa55b51a0508"
+  integrity sha512-WaIudIVKo5QWFqz1ta53HqSDuVxYST/MUuP9X7dqUpbHse3E2gzJq/7hEtgx84hh2XSNWN1AhYho3ThOA85uCA==
 
-hermes-parser@0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.17.1.tgz#8b5cbaff235fed28487812ad718f9c7182d0db0f"
-  integrity sha512-yErtFLMEL6490fFJPurNn23OI2ciGAtaUfKUg9VPdcde9CmItCjOVQkJt1Xzawv5kuRzeIx0RE2E2Q9TbIgdzA==
+hermes-parser@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/hermes-parser/-/hermes-parser-0.18.0.tgz#dd9878f70e9ca2570e7626181ae0465115f7f78d"
+  integrity sha512-DIIM6vsy30BU5hNkOXh6MR2r4ZAxVhbfyTnmfo/rqUf3KySlNWn9fWiOcpuGAdDN2o5sdPCpu6cep3a23d1Klw==
   dependencies:
-    hermes-estree "0.17.1"
+    hermes-estree "0.18.0"
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
