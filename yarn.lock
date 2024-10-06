@@ -1623,9 +1623,9 @@ flow-bin@^0.247.1:
   integrity sha512-03wwQ5kPW4CYqhXvxTseMs2v6QuVwCtifVkON2UUyDg6Jp1+CaQpLAZK+sFNzQOExKp0Yvoug+fZOUb33ARwHQ==
 
 flow-remove-types@^2.212.0:
-  version "2.245.0"
-  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.245.0.tgz#f2bb1a0f7a155d803e541d1203458bb79afc58c7"
-  integrity sha512-/j5HYM4w+QoRo0hrOC/FPvw7nK2gPrZzNoNhMibkUPI9RGsgaG8PWIdgu/zhVmqfghGrNDcKS1zYdGDUvg2tGw==
+  version "2.247.1"
+  resolved "https://registry.yarnpkg.com/flow-remove-types/-/flow-remove-types-2.247.1.tgz#30d350de9e29fdbd1ed86180da53df3eecb42796"
+  integrity sha512-6mbhNdQ4re2JO9vblOypfnVAVJIs31tcgdt9c2ONyMroX0OGDZ3wBJkCub9EF4mZW+takHNf+Z4+6l4ewxZpkQ==
   dependencies:
     hermes-parser "0.23.1"
     pirates "^3.0.2"
