@@ -2035,10 +2035,10 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.4.2.tgz#f5c23c107f0f37de8dbdf24f13722b3b98d52726"
   integrity sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==
 
-flow-bin@^0.299.0:
-  version "0.299.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.299.0.tgz#4e402a68e3b2f613fdffba22a2c77920813e11ae"
-  integrity sha512-NrVVBCn1d171hNEL6DwdByalpYOi+Kr+BeNuHcdS4xVU88PrVmRNM+Ut74TvXSGz77JRdPqkqJoB0Wu+rGPkxw==
+flow-bin@^0.307.0:
+  version "0.307.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.307.0.tgz#9540e95130c8e13eba77b3191b92415de4a41a04"
+  integrity sha512-VJbgwkNCgaY8p9eCzw1Iv1Y76Pxi0KjgIjeABOWMlp2NiJRATnNxz6mhqPs31+5g2JBwab4qchtynE2qLTwb9g==
 
 flow-remove-types@^2.212.0:
   version "2.299.0"
